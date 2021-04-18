@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #87519d;
+    padding: 30px 0px;
+        padding-bottom: 60px;
+}
+.abt-main {
+    
+}
+.abt-main ul {
+        margin: 10px 70px;
+} 
+.abt-main ul li {
+    list-style: none;
+    display: inline-block;
+    
+}
+.abt-main ul li a{
+    color: white;
+    margin: 0px 45px;
+    font-size: 18px;
+    font-family: emoji;
+}
+.header-wri {
+        text-align: center;
+    width: 65%;
+    margin: 0px auto;
+    display: block;
+}
+.header-wri h2 {
+        font-size: 33px;
+    font-family: emoji;
+    font-weight: 600;
+    color: white;
+    margin-top: 90px;
+    margin-bottom: 25px;
+}
+.abt-btn {
+   background-color: #eb7d4a;
+    border: 1px solid orange;
+    padding: 10px 30px;
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+
+
+
+@media(min-width: 320px) and (max-width:576px){
+    header{
+       
+    }
+    .wid{
+     width: 20%;
+    }
+    .abt-main{
+       margin: 0px 0px;
+    }
+    .abt-main ul{
+   margin: -21px 92px;
+width: 80%;
+    }
+    .abt-main ul li{
+
+    }
+    .abt-main ul li a{
+          font-size: 9px;
+    margin: 0px 9px;
+    }
+    .header-wri{
+width: 100%;
+    }
+    .header-wri h2{
+      font-size: 12px;
+    margin-top: 45px;
+    margin-bottom: 12px;
+    }
+    .abt-btn{
+font-size: 8px;
+    padding: 5px 14px;
+    }
+    
+}
+@media (min-width: 576.01px) and (max-width: 768px){
+   
+}
+
+@media(min-width: 768.01px) and (max-width: 992px){
+    
+}
+@media (min-width: 992.01px) and (max-width: 1200px){
+}
+
+
+
+
+
+
